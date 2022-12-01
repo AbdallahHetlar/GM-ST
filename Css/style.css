@@ -1,0 +1,252 @@
+/* =====>Start Basick<===== */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix {clear: both;}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+ /* ==========>Start Head Sloder <==========  */
+ .head-slider {
+     height: 800px;
+     background-image: url(https://place-hold.it/1980x1180/4e0606);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+ .head-slider .h-s {
+    position: absolute;
+    bottom: 350px;
+    left: 875px;
+ }
+ .head-slider .h-s h1 {
+     text-align: center;
+     text-transform: uppercase;
+ }
+ .head-slider .h-s button {
+    padding: 10px 30px;
+    width: 160px;
+    border: none;
+ }
+/* ==========>End Head Sloder <==========  */
+
+/* ==========> Start Nav Bar <========== */
+.head-nav {
+    background-color: #78787898;
+    overflow: hidden;
+    margin-bottom: 100px;
+    
+}
+.head-nav h2 {
+    float: left;
+    text-transform: uppercase;
+    margin-right:100px ;
+    
+}
+.head-nav h2 span {
+    color: #fff;
+}
+.head-nav input {
+    float: left;
+    margin-top: 18px;
+    width: 300px;
+    height: 40px;
+    padding:5px;
+}
+.head-nav button {
+    float: left;
+    margin-top: 19px;
+    padding: 10px 30px;
+    border: none;
+}
+.head-nav nav ul {
+    list-style: none;
+    float: right;
+}
+.head-nav nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.head-nav nav ul li:hover {
+    color: #4e0606;
+}
+/* ==========> End Nav Bar <========== */
+
+/* ==========> Start Store Section <========== */
+.head-store {overflow: hidden; margin-bottom: 100px;}
+.store-section .head-store h1{
+    float: left;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.store-section .head-store h1 span {
+    color: #4e0606;
+}
+.store-section .head-store .search-area {
+    position: relative;
+    float: right;
+    
+}
+.store-section .head-store .search-area input{
+    width: 400px;
+    height: 40px;
+    padding:5px;
+    float: right;
+    position: absolute;
+    top: -75px;
+    right:200px;
+}
+.store-section .head-store .search-area button {
+    float: right;
+    padding: 11px 40px;
+    border: none;
+    position: absolute;
+    top: -75px;
+    right:70px;
+}
+/* ==========> End Store Section <========== */
+
+/* ==========> Start Item Store <========== */
+.item-store .item {
+    width: 22.925%;
+    text-align: center;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.item-store .item img {
+    max-width: 100%;
+}
+.item-store .item p span {
+    color: brown;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+.item-store .item button {
+    padding: 10px 30px;
+    border: none;
+    color: #779977;
+}
+/* ==========> End Item Store <========== */
+
+/* ==========>Start Testimonials<========== */
+.testimonials {
+    background-color: #9e9e9e;
+    padding: 50px 0;
+    text-align: center;
+}
+.testimonials q {font: italic bold 19px/1.8 arial;}
+.testimonials h3 {color: #444; margin-bottom: 30px;}
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.testimonials ul li {
+    border:1px solid #5f0909;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.testimonials ul li:hover,
+.testimonials ul li.active {
+    background-color: #5f0909;
+}
+
+/* ==========>End Testimonials<========== */
+
+/* ==========>Start Contact Me<========== */
+.contact {
+    background-color: #252f31;
+    overflow: hidden;
+    padding: 50px 0 70px;
+    margin-top: 100px;
+}
+.contact .info {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+.contact .info h2 {
+    color: #FFF;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.contact .info p {margin-left: 40px;}
+.contact .info p strong {color: #d1d1d1;}
+.contact .form {
+    width: 45%;
+    float: left;
+}
+.contact .form label {
+    display: block;
+    color: #d1d1d1;
+    margin: 10px 0;
+}
+.contact .form > input[type="text"] {
+    background-color: #4b5557;
+    color: #fff;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.contact .form textarea {
+    background-color: #4b5557;
+    color: #fff;
+    width: 80%;
+    height: 300px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.contact .form input[type="submit"]{
+    padding: 10px 15px;
+    background-color: #191e22;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* ==========>End Contact Me<========== */
+
+/* ==========>Start Footer<========== */
+.footer {
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.footer span {
+    float: left;
+    line-height: 40px;
+
+}
+.footer ul {
+    list-style: none;
+    padding-left:0 ;
+    float: right;
+    margin: 0;
+    line-height: 68px;
+}
+.footer ul li {
+    display: inline-block;
+    max-width: 30px;
+    padding-left:20px ;
+}
+.footer ul li img {
+    width: 100%;
+}
+/* ==========>End Footer<========== */
+
+/* ==========>Start Fremwork<========== */
+.p-style {color: #666;line-height: 1.6;}
+/* ==========>End Fremwork<========== */
